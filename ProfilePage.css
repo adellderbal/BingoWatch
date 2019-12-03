@@ -1,0 +1,105 @@
+.card {
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  max-width: 300px;
+  margin: auto;
+  background: linear-gradient(to right, #c2b1b8, #d14381);
+  text-align: center;
+  float: left;
+  border-radius: 30%;
+}
+
+#profpic {
+  border-radius: 30%;
+}
+.navbar-brand > img.LOGO {
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #557a95;
+}
+#LOGO {
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+
+.favouriteMovies {
+  text-align: center;
+  float: right;
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+.SecurityQuestions {
+  display: none;
+
+  margin-left: 28%;
+  margin-right: 4%;
+
+  font-weight: bold;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+
+.title {
+  color: black;
+  font-size: 18px;
+}
+.uom {
+  color: #000;
+}
+#security {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: auto;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+body {
+  background-color: white;
+}
+
+.gallery {
+  margin-top: 25px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  float: right;
+  width: 250px;
+  height: 270px;
+}
+.gallery img {
+  width: 100%;
+  height: 220px;
+}
+
+.movie {
+  padding: 15px;
+  text-align: center;
+  color: black;
+}

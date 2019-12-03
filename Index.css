@@ -1,0 +1,72 @@
+.navbar-brand > img.LOGO {
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+
+#LOGO {
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+
+.navbar {
+  background-color: #557a95;
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-weight: bold;
+}
+#btone {
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+.btn-primary {
+  background: black;
+  border-radius: 16px;
+}
+#jone {
+  padding-top: 250px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(./newtiles.jpg);
+  align-items: center;
+  justify-content: center;
+  text-emphasis: bold;
+}
+#jtwo {
+  background: linear-gradient(to right, black, #5e5a5c);
+}
+#jthree {
+  padding-top: 150px;
+  background: linear-gradient(to right, #5e5a5c, black);
+  text-align: right;
+}
+
+#jfour {
+  background: linear-gradient(to right, black, #5e5a5c);
+}
+.jumbotron {
+  text-align: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  float: left;
+  margin-right: 6%;
+}
+
+img.socialicons {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}

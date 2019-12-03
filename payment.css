@@ -1,0 +1,118 @@
+.navbar-brand > img.LOGO {
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+
+#gen {
+  border: 10px solid;
+  padding: 10px 15px;
+  background-color: lightblue;
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+#LOGO {
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+
+.navbar {
+  background-color: #557a95;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-weight: bold;
+}
+
+.chooseplan {
+  margin-top: 10%;
+  float: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+p {
+  font-size: 160%;
+}
+
+#seeplans {
+  width: 30%;
+}
+
+/* style inputs and link buttons */
+
+.btn {
+  width: 20%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+input {
+  width: 20%;
+  padding: 12px;
+
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+#buttonlogin {
+  background-color: #337ab7;
+}
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+

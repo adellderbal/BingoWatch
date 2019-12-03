@@ -1,0 +1,73 @@
+.navbar-brand > img.LOGO {
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+#gen {
+  border: 10px solid;
+  padding: 10px 15px;
+  background-color: lightblue;
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+#LOGO {
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+img.socialicons {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+.navbar {
+  background-color: #557a95;
+}
+body {
+  background-color: #c2cad0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-weight: bold;
+}
+
+.gallery {
+  margin-top: 25px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  float: left;
+  width: 15%;
+  height: 270px;
+}
+.gallery img {
+  width: 100%;
+  height: 220px;
+}
+
+.movie {
+  padding: 15px;
+  text-align: center;
+  color: black;
+}
+
+.footer {
+  float: left;
+  margin-right: 6%;
+}
+
+
+hr {
+  margin-bottom: 25px;
+}
+
+img.socialicons {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}

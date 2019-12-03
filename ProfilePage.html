@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bingo Watch</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="ProfilePage.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav style="height: 47px;" class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"
+            ><img
+              style="max-width:200px; margin-top: -7px; height:46px; width: 150px; "
+              src="LogoFinal.png"
+          /></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active" class="navicon">
+              <a href="./Homepage.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="navicon"><a href="./Explore.html">Explore Movies</a></li>
+            <li class="navicon">
+              <a href="#aboutus" data-toggle="modal">About Us</a>
+            </li>
+            <li class="navicon"><a href="./Help.html">Help</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#search" data-toggle="modal"
+                ><i class="material-icons">search</i></a
+              >
+            </li>
+            <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                ><i class="material-icons">account_circle</i>
+                <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="./ProfilePage.html">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="Index.html">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <div class="card">
+      <img
+        src="./profilrPic.png"
+        alt="Profile Picture"
+        style="width:100%"
+        id="profpic"
+      />
+      <h1 contenteditable="true">Harsh Patel</h1>
+      <p class="title" contenteditable="true">CEO & Founder, Bingo Watch</p>
+      <p class="uom" contenteditable="true">University of manitoba</p>
+      <a href="#"><i class="fa fa-dribbble"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <br />
+      <button id="security">See security questions</button>
+    </div>
+
+    <div class="SecurityQuestions" id="secure">
+      <h2>Security Questions:</h2>
+      <h5>Double click to edit the questions and answers.</h5>
+      <hr />
+      <p></p>
+      <hr />
+      <b><p contenteditable="true">What is you favourite ?</p></b>
+      <hr />
+      <p contenteditable="true">Toyota</p>
+      <hr />
+      <b><p contenteditable="true">What is your mother's maiden name?</p></b>
+      <hr />
+      <p contenteditable="true">Christine</p>
+      <hr />
+      <b><p contenteditable="true">What is your favourite sport?</p></b>
+      <hr />
+      <p contenteditable="true">Football</p>
+      <hr />
+    </div>
+    <div class="favouriteMovies">
+      <h2 id="fav">YOUR FAVOURITE MOVIES</h2>
+      <a href="">
+        <div class="gallery">
+          <img
+            src="http://blog.karachicorner.com/wp-content/uploads/2013/04/large/WorldWarZ+movie+posters.jpg"
+          />
+          <div class="movie">World War Z</div>
+        </div>
+      </a>
+
+      <a href="">
+        <div class="gallery">
+          <img
+            src="https://i.pinimg.com/originals/c7/de/ca/c7decad4332e04a5657afee96ed4571e.jpg"
+          />
+          <div class="movie">Rambo</div>
+        </div>
+      </a>
+
+      <a href="">
+        <div class="gallery">
+          <img
+            src="https://i.pinimg.com/originals/7e/4c/7d/7e4c7d46a8f0a0a1b18870dca6de5a84.jpg"
+          />
+          <div class="movie">Kid King</div>
+        </div>
+      </a>
+      <p>FAVOURITE GENRE: ACTION/THRILLER</p>
+      <p>FAVOURITE ACTOR: DANIEL CRAIG</p>
+      <p>FAVOURITE MOVIE: LION KING</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./ProfilePage.js"></script>
+  </body>
+</html>

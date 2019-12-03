@@ -1,0 +1,46 @@
+.navbar-brand > img.LOGO {
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+
+#gen {
+  border: 10px solid;
+  padding: 10px 15px;
+  background-color: lightblue;
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+#LOGO {
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+
+.navbar {
+  background-color: #557a95;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-weight: bold;
+}
+
+.chooseplan {
+  margin-top: 10%;
+  float: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+p {
+  font-size: 160%;
+}
+
+#seeplans {
+  width: 30%;
+}
+
